@@ -14,11 +14,11 @@ setup(
     author_email='kern.ce.ce++@gmail.com',
     description='Python-Markdown extension that replaces common smileys with their Unicode emoji emoticons. ;)',
     long_description_markdown_filename='README.md',
+    long_description_content_type='text/markdown',
     url='https://github.com/kernc/' + MODULE,
     py_modules=[MODULE],
     test_suite='setup.tests',
     install_requires=['Markdown'],
-    setup_requires=['setuptools-markdown'],
     license='GPLv3+',
     keywords='markdown unicode emoji emoticon',
     classifiers=[
